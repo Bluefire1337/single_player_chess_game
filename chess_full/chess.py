@@ -81,7 +81,7 @@ selection = 100
 valid_moves = []
 
 # load in game piece images (queen, king, rook, bishop, knight, pawn) black and white
-black_queen = pygame.image.load('chess_assets/black_queen.png')
+black_queen = pygame.image.load(resource_path('chess_assets/black_queen.png'))
 black_queen = pygame.transform.scale(black_queen, (80,80))
 black_queen_small = pygame.transform.scale(black_queen, (45, 45))
 
